@@ -27,10 +27,15 @@ contract Item1 {
 contract Item2 {
 
     mapping(address => uint256) userLoginCounts;
+    address[] users;
 
     function check_in () public {
 
         address senderAddress = msg.sender;
+
+        if ( userLoginCounts[senderAddress] == 0 ) {
+            users.push(senderAddress);
+        }
 
         userLoginCounts[senderAddress] += 1;
     }
@@ -40,7 +45,21 @@ contract Item2 {
 
         return userLoginCounts[senderAddress];
     }
+
+    function report() public view returns ( address[] memory, uint256[] memory ) {
+        address[] memory addresses = new address[](users.length);
+        uint[] memory counts = new uint256[](users.length);
+
+        for ( uint256 i = 0; i < users.length; i++ ) {
+            addresses[i] = users[i];
+            counts[i] = userLoginCounts[users[i]];
+        }
+
+        return (addresses, counts);
+
+    }
 }
+
 
 contract Item3 {
     
