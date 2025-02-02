@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "sentence",
+						"type": "string"
+					}
+				],
+				"name": "count_word",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/item-3.sol": "itemThree"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/item-3.sol": {
+			"keccak256": "0x9154669f7fbf81e33d74a7218ad2a4d9ab154646bd848c1f6a2f760beb12d72e",
+			"urls": [
+				"bzz-raw://956f6f2a45e5eb805a97905d1d2023c28df735cf8071c21a1267d4b3598c27ef",
+				"dweb:/ipfs/QmTr9N6giCqEeggHdhh2wauS2U7J1heYuWMiopStR6nXtY"
+			]
+		}
+	},
+	"version": 1
+}

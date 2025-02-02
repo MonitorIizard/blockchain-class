@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "sentence",
+						"type": "string"
+					}
+				],
+				"name": "split",
+				"outputs": [
+					{
+						"internalType": "string[32]",
+						"name": "",
+						"type": "string[32]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/item-4.sol": "item4"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/item-4.sol": {
+			"keccak256": "0x89250f1ba6aeb4905151e769dda9191eba8dac880fecd7172a28a160e82d7dc1",
+			"urls": [
+				"bzz-raw://52adffaeb1d1c2d10435c5bd5aa4ebc32cc209a1287b2d06933d51782b82170c",
+				"dweb:/ipfs/QmdgL5tVGbtiFhmF8rEocfiT6tQvatSboKML6NraGAtbQ3"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "check_in",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get_user_login_time",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/item-2.sol": "item2"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/item-2.sol": {
+			"keccak256": "0xc85e4f6d8cb2673fb3a0317d40c57a78d4ab099764dd0e1eddd79220a62f40d1",
+			"urls": [
+				"bzz-raw://11ad8423e6c29eea82afe4a908e3a68e6a6d4345e53aed8344c4c3912a1dde39",
+				"dweb:/ipfs/Qmc6CYotP2foy5iQeHqaHT8b5S3svGikkfRMwwbArmeGFx"
+			]
+		}
+	},
+	"version": 1
+}
